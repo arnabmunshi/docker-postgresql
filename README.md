@@ -19,3 +19,22 @@ extension=pdo_pgsql
 - Download `adminer` - https://www.adminer.org
 - Move the `Adminer php` file into `xampp htdocs` folder
 - Run `xampp control panel` and start the `Appache server` and click - `Admin` button
+
+---
+
+#### Some useful docker commands
+
+- Docker Container List
+```bash
+docker ps
+```
+
+- Docker Container Logs
+```bash
+docker log <CONTAINER_ID>
+```
+
+- Live data stream for running containers
+```bash
+docker stats
+```
